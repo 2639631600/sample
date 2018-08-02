@@ -8402,6 +8402,14 @@ p {
 
 /* header */
 
+#logout {
+  cursor: default;
+}
+
+#logout:hover {
+  background-color: transparent;
+}
+
 .navbar-inverse {
   background-color: #3c3e42;
 }
@@ -8509,7 +8517,7 @@ footer input,
 footer textarea,
 footer select,
 footer .uneditable-input {
-  border: 5px solid #4B0082;
+  border: 1px solid #bbb;
   margin-bottom: 15px;
 }
 
